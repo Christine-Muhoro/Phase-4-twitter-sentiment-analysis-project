@@ -28,10 +28,10 @@ A wordcloud for each sentiment![A wordcloud for each sentiment](images/Wordcloud
 ## **Modeling and Evaluation**
 ### **Binary Classifier**(Positive and Negative Sentiments)
 Trained a logistic regression model,a random forest, a multinomial naive bayes model and a linearSVC model. According to the following results, the random forest model performed best with a higher accuracy, recall and F1 score.
-![Binary evaluation results](images/Binary_models.jpg)
+![Binary evaluation results](images/Binary_models.png)
 ### **Multiclassifier Modeling**(Positive,Negative and Neutral Sentiments)
 Trained a logistic regression model,a random forest, a multinomial naive bayes model, a linearSVC model and a XGBoost model. According to the following results, the random forest model performed best with a higher accuracy, recall and F1 score.
-![Multiclass evaluation results](images/Multi_class_models.jpg)
+![Multiclass evaluation results](images/Multiclass_models.png)
 ## **Recommendations**
 1. We built a binary classifier for positive and negative sentiment. We recommend deploying this model in marketing and branding systems for twitter feedback analysis.
 2. The multi classifier has an accuracy of 67% which is a bit low due to unclear classification of the neutral sentiment. We recommend finding better strategies for training this model in the future.
